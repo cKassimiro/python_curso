@@ -18,4 +18,3 @@ def faixa_etaria(idade):
             #      .format(idade, faixa_etaria(idade))
             #     )
             print(f'{idade}: {faixa_etaria(idade)}')
-    print('tavs')
