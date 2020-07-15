@@ -13,5 +13,8 @@ def faixa_etaria(idade):
         return 'Idade Invalida.'
 
     if __name__ == '__main__':
-        for idade in (17, 35, 87, 113, -2):
+        for idade in (17, 0, 35, 87, 113, -2):
+            # print("""idade {} \n faixa etaria {}"""
+            #      .format(idade, faixa_etaria(idade))
+            #     )
             print(f'{idade}: {faixa_etaria(idade)}')
