@@ -14,4 +14,3 @@ Saudavel = not sorvete
 
 print('Tv50={} Tv32={} Sorvete={} Saudavel={} '.format(
     tv_50, tv_32, sorvete, Saudavel))
-print('teste')
