@@ -1,3 +1,9 @@
+# for i in range(1, 7):
+#   if i == 6:
+#        break
+# else:
+#    print('fim')
+
 from random import randint
 
 
