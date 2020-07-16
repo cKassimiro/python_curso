@@ -1,15 +1,17 @@
 from random import randint
 
 
-def sortear_dado():
+def sortear_dado():  # FUNÇÃO QUE GERA NUMERO ALEATORIO ENTRE 1 E 6
     return randint(1, 6)
 
 
 for i in range(1, 7):
-    if i % 2 == 1:
+    if i % 2 == 1:  # SEPARA OS NUMEROS IMPARES
+        print(i)
         continue
-    if i % 2 == 0 and i == sortear_dado():
-        print('Acertou')
+
+    if i == sortear_dado():  # COMPARA OS NUMEROS PARES DE "i" COM A FUNÇÃO
+        print('Acertou', i)
         break
 else:
     print('Não acertou o numero!')
