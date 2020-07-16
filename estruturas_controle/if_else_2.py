@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def faixa_etaria(idade):
     if 0 <= idade < 18:
         return 'Menor de idade'

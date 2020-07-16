@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from random import randint
 
 numero_informado = -1
