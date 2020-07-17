@@ -13,4 +13,4 @@ def get_dia_semana(dia):
 
 if __name__ == '__main__':
     for dia in range(0, 9):
-        print(f'{dia} : {get_dia_semana(dia)}')
+        print('{}, {}'.format(dia, get_dia_semana(dia)))
