@@ -3,13 +3,11 @@
 
 def fibonacci(quantidade):
     resultado = [0, 1]
-    while True:
+    for _ in range(quantidade-2):  # _ simboliza uma variavel s/ uso
         resultado.append(sum(resultado[-2:]))
-        if len(resultado) == quantidade:
-            break
     return resultado
 
 
 if __name__ == "__main__":
-    for fib in fibonacci(10):
+    for fib in fibonacci(20):
         print(fib)
