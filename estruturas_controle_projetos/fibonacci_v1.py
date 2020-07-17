@@ -4,7 +4,7 @@
 def fibonacci():
     penultimo = 0
     ultimo = 1
-    print(f'{penultimo}, {ultimo}', end=',')
+    print('{}, {}'.format(penultimo, ultimo), end=',')
     while True:
         proximo = penultimo + ultimo
         print(proximo, end=',')
