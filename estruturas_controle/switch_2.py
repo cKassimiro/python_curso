@@ -14,6 +14,6 @@ def get_dia(dia):
 if __name__ == '__main__':
     for dia in range(1, 8):
         if dia == 1 or dia == 7:
-            print('{}, {}'.format(dia, get_dia(dia)))
+            print('{}, {}, fim de semana'.format(dia, get_dia(dia)))
             continue
-        print('{}, {}'.format(dia, get_dia(dia)))
+        print('{}, {} dia de semana'.format(dia, get_dia(dia)))
