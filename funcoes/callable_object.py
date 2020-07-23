@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-class potencia:
+class Potencia:
 
     def __init__(self, expoente):
         self.expoente = expoente
@@ -10,7 +10,10 @@ class potencia:
 
 
 if __name__ == '__main__':
-    quadrado = potencia(2)
-    cubo = potencia(3)
+    quadrado = Potencia(2)
+    cubo = Potencia(3)
 
     if callable(quadrado) and callable(cubo):
+        print('3² => {}'.format(quadrado(3)))
+        print('2³ => {}'.format(cubo(2)))
+        print(Potencia(8)(2))  # primeiro parametro: EXPOENTE; segundo: BASE
