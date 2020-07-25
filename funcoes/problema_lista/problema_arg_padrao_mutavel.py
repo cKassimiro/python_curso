@@ -12,9 +12,3 @@ if __name__ == "__main__":
     print(fibonacci(inicio))
     restart = fibonacci()
     print(restart, id(restart))
-
-# A *LISTA* "SEQUENCIA", POR SER *MUTAVEL*, AO LONGO DO PROCESSO
-# É ALTERADA MUDANDO O VALOR DEFAULT (PADRAO) QUE DEVERIA SER
-# ESTATICO
-
-# UMA DAS POSSIVEIS SOLUÇÕES: USAR *TUPLA()* NO LUGAR DE *LISTA[]*
