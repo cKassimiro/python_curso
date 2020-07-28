@@ -1,4 +1,4 @@
-from sub_funcoes import gerador
+from .sub_funcoes import gerador
 
 
 def menus(estado):
