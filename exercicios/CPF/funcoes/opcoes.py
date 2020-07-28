@@ -2,8 +2,7 @@ from .sub_funcoes import gerador
 
 
 def menus(estado):
-    if callable(estado):
-        estado()
+    estado()
 
 
 def estado_1():
