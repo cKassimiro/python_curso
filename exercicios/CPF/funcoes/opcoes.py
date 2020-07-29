@@ -6,10 +6,8 @@ def menus(estado):
 
 
 def estado_1():
-    cpf_inicial = int(
-        input('Digite o número do CPF sem os 2 últimos dígitos: \n'))
+    cpf_inicial = input('Digite o número do CPF sem os 2 últimos dígitos: \n')
     gerador.calc(cpf=cpf_inicial)
-    print(f'O numero do CPF é: {cpf_inicial}')
 
 
 def estado_2():

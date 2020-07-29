@@ -1,2 +1,2 @@
 def calc(cpf):
-    print('aA')
+    pass
