@@ -1,0 +1,1 @@
+print('ahahahahaha e nois q ta td3')
