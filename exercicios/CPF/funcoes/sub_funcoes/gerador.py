@@ -1,17 +1,18 @@
 def calc(cpf):
     cpf_inv = cpf
-    cpf_list = list(str(cpf_inv))
-    verif = int(cpf_list[0])*1 + int(cpf_list[1])*2 + int(cpf_list[2])*3\
-        + int(cpf_list[3])*4 + int(cpf_list[4])*5 + int(cpf_list[5])*6\
-        + int(cpf_list[6])*7 + int(cpf_list[7])*8 + int(cpf_list[8])*9
+    cpf_soma = int(cpf_inv)
+    soma_mult = list(str(cpf_soma))
+    verif = int(soma_mult[0])*10 + int(soma_mult[1])*9 + int(soma_mult[2])*8\
+        + int(soma_mult[3])*7 + int(soma_mult[4])*6 + int(soma_mult[5])*5\
+        + int(soma_mult[6])*4 + int(soma_mult[7])*3 + int(soma_mult[8])*2
+    div = verif * (10/11)
+    print(div)
+    print('Valor:', verif)
 
-    print(f'valor: {verif}')
-
-    cpf_num = cpf
-    soma_digi1 = 0
-    for chave, multiplicador in enumerate(range(len(cpf_num)+1, 1, -1)):
-        print()
-        print(f'multiplicador: {multiplicador}')
-        print(f'chave: {chave}')
-        soma_digi1 += int(cpf_num[chave])*multiplicador
-    print(soma_digi1)
+    # cpf_num = cpf
+    # soma_digi1 = 0
+    # for chave, multiplicador in enumerate(range(len(cpf_num)+1, 1, -1)):
+    #     print(f'multiplicador: {multiplicador}')
+    #     print(f'chave: {chave}')
+    #     soma_digi1 += int(cpf_num[chave])*multiplicador
+    # print(soma_digi1)
