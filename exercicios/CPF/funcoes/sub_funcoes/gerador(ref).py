@@ -6,3 +6,5 @@ def calc(cpf):
         print(f'chave: {chave}')
         soma_digi1 += int(cpf_num[chave])*multiplicador
     print(soma_digi1)
+
+    

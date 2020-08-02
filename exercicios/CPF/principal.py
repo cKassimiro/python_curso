@@ -12,16 +12,16 @@ def inicio():
     opcao = int(input('Escolha uma das opções acima: '))
 
     if opcao in range(0, 5):
-        if opcao == 1:
+        if opcao == 1: # SELECIONAR PRIMEIRO ESTADO [1]
             opcoes.menus(estado=opcoes.estado_1)
             inicio()
-        elif opcao == 2:
+        elif opcao == 2: # SELECIONAR SEGUNDO ESTADO [2]
             opcoes.menus(estado=opcoes.estado_2)
             inicio()
-        elif opcao == 3:
+        elif opcao == 3: # SELECIONAR TERCEIRO ESTADO [3]
             opcoes.menus(estado=opcoes.estado_3)
             inicio()
-        elif opcao == 4:
+        elif opcao == 4: # SELECIONAR QUARTO ESTADO [4]
             print('** PROGRAMA ENCERRADO **')
             exit()
     else:
