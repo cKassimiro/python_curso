@@ -12,7 +12,6 @@ def estado_1():
     print('')
     cpf_inicial = input('Digite o número do CPF sem os 2 últimos dígitos: \n')
     gerador.calc(cpf=cpf_inicial)
-    print(cpf_inicial)
 
 
 # VERIFICAR SE O CPF É VALIDO
