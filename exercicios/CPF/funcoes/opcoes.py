@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from .sub_funcoes import gerador, verificador, cidade
 
 
@@ -11,7 +13,7 @@ def menus(estado):
 def estado_1():
     print('')
     cpf_inicial = input('Digite o número do CPF sem os 2 últimos dígitos: \n')
-    gerador.calc(cpf=cpf_inicial)
+    print('\n' + gerador.calc(cpf=cpf_inicial))
 
 
 # VERIFICAR SE O CPF É VALIDO
@@ -20,8 +22,8 @@ def estado_1():
 
 def estado_2():
     print('')
-    cpf_completo = input('Digite o numero do CPF completo:')
-    verificador.check(cpf=cpf_completo)
+    cpf_completo = input('Digite o numero do CPF completo: \n')
+    print(verificador.check(cpf=cpf_completo))
 
 
 # VERIFICAR ESTADO(LOCAL) DE ORIGEM
