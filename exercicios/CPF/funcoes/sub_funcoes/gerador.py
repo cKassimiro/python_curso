@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def calc(cpf):
 
     # GERANDO PRIMEIRO DIGITO

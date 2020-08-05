@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from .sub_funcoes import gerador, verificador, cidade
 
 

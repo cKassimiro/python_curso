@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from funcoes.sub_funcoes import gerador
 
 

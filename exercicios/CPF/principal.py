@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from funcoes import opcoes
 from sys import exit
 
