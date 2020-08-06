@@ -31,9 +31,5 @@ def estado_2():
 
 def estado_3():
     print('')
-    cpf_completo = input('Digite o numero do CPF completo:')
-    digitos = verificador.check(cpf=cpf_completo)
-    if digitos != 0:
-        cidade.check_cidade(cpf=digitos)
-    else:
-        print('** CPF INVALIDO! **')
+    cpf_completo = input('Digite o numero do CPF completo: \n')
+    cidade.check_cidade(cpf=cpf_completo)

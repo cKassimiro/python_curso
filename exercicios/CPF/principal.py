@@ -10,7 +10,7 @@ def inicio():
           '[3] Estado de origem\n'
           '[4] Sair\n')
 
-    opcao = int(input('Escolha uma das opções acima: '))
+    opcao = int(input('Escolha uma das opções acima: \n'))
 
     if opcao in range(0, 5):
         if opcao == 1:  # SELECIONAR PRIMEIRO ESTADO [1]
