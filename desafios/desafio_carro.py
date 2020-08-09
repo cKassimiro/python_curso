@@ -1,14 +1,18 @@
 class Carro:
-    def __init__(self, valor_max,):
-        self.valor_max = valor_max
-        # self.acelerar = acelerar
-        # self.frear = frear
+    def __init__(self, velo_max,):
+        self.velo_max = velo_max
+        self.velo_atual = 0
 
-    def acelerar(self, delta):
-        print('acelerar', delta)
+    def acelerar(self, delta=5):
+        maxima = self.velo_max
+        nova = self.velo_atual + delta
+        self.velo_atual = nova if nova <= maxima else maxima
+        return self.velo_atual
 
-    def frear(self, delta):
-        print('frear', delta)
+    def frear(self, delta=5):
+        nova = self.velo_atual - delta
+        self.velo_atual = nova if nova >= 0 else 0
+        return self.velo_atual
 
 
 if __name__ == "__main__":
