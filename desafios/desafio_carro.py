@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 class Carro:
     def __init__(self, valor_max, valor_atual=0):
         self.valor_max = valor_max
