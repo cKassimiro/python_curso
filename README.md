@@ -1,7 +1,8 @@
 <h1> Health Analytics </h1>
 
-![alt logo]
-(https://imgur.com/OSNHwn7.png)
+<a href="https://imgur.com/OSNHwn7.png">
+  <img src="https://imgur.com/OSNHwn7.png" />
+</a>
 
 
 <h2> -- DOCUMENTAÇÃO -- </h2>
