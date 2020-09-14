@@ -1,7 +1,7 @@
 <h1> Health Analytics </h1>
 
 ![alt logo]
-(https://github.com/Projeto-PI-Grupo04/Projeto-PI/blob/master/Algoritimo/logo.png?raw=true)
+(https://imgur.com/OSNHwn7.png)
 
 
 <h2> -- DOCUMENTAÇÃO -- </h2>
